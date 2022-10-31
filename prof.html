@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maheen Profile</title>
+    <script src="prof.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">HAIDER RIZVI PROFILE</h1>
+    <img src="profile.png" width="150" height="150" alt="">
+    <p>Hi, I’m Haider Rizvi and I’m a software engineer. My current focus is optimizing customer experience.</p>
+    <table id="studentCourses" class="courses">
+        <thead>
+        <tr>
+        <th>Course #</th>
+        <th>Course Name</th>
+        <th>Year Taken</th>
+        <th>Credit hours</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="row1" class="row">
+        <td>Course 1</td>
+        <td>Prog Fundamentals</td>
+        <td>2020</td>
+        <td>3</td>
+        </tr>
+        <tr id="row2" class="row">
+        <td>Course 2</td>
+        <td>OOP</td>
+        <td>2021</td>
+        <td>2</td>
+        </tr>
+        <tr id="row3" class="row">
+        <td>Course 3</td>
+        <td>Data Structures & Algos</td>
+        <td>2018</td>
+        <td>3</td>
+    </tr>
+    <tr id="row4" class="row">
+        <td>Course 4</td>
+        <td>Coompiler Construction</td>
+        <td>2022</td>
+        <td>2</td>
+    </tr>
+</tbody>
+</table>
+</br>
+<div class="container"> 
+<input  type="button" value="Add New Course"onclick="addNewCourse();"/>
+<input type="button" value="Delete Course" onclick="deleteCourse();" />
+<input type="button" value="Update Course" onclick="updateCourse();"/>
+<input type="button" id="btn" value="'Remove All" onclick="removeCourse();"/>
+<p id = "para"></p>
+</div> 
+</body>
+</html>
